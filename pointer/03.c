@@ -10,5 +10,5 @@ int main(){
     a = (uint8_t*)&arr[0];
     b = (uint32_t*)&arr[0];
     a++; b++;
-    printf("a: %d b: %d\n", *a, *b);
+    printf("a: %d b: %d\n", *a, *b);   //a=1, b=4
 }
